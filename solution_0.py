@@ -3,12 +3,11 @@ import sys
 sys.set_int_max_str_digits(1000000)
 prev = 1
 prev2 = 0
-new = 0 
-for i in range(0,200002):
+fib = [0,1]
+for i in range(0,200005):
      new = prev + prev2
      prev2 = prev
      prev = new
+     fib.append(new)
+print(len(str(fib[199999])))  # bc index 0     
 
-
-new = str(new)        
-print(len(new))
