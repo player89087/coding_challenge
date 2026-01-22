@@ -1,5 +1,7 @@
 import random 
 import math 
+import time 
+start = time.time()
 word = "Great job you found the solution [encrypt10n_1s_k3y.html] "
 
 
@@ -11,7 +13,7 @@ for i in range(0,len(word)):
 
 # calculate rsa key pair 
 
-amount = 50
+amount = 10000
 prime_numb = []
 for i in range(2,amount):
     is_prime_number = True 
@@ -29,8 +31,8 @@ q = random.choice(prime_numb)
 
 print(f"p,q{p,q}")
 
-N = p * q 
-print(f"N{N}") # thats important 
+n = p * q 
+print(f"N{n}") # thats important 
 # φ(p⋅q)=(p−1)*(q−1)
 phi = (p-1) * (q-1)
 print(f"phi{phi}")
@@ -56,7 +58,7 @@ print(f"d: {d}") # thats important
 print(f"Unicode list{unicode}")
 secret_msg = []
 for i in range(0,len(word)):
-    secret_msg.append((unicode[i] ** e) % N)
+    secret_msg.append(pow(unicode[i],e,n))
 print(f"secret list {secret_msg}")
 
 
@@ -64,6 +66,9 @@ print(f"secret list {secret_msg}")
 
 clear_message = []
 for i in range(0,len(secret_msg)):
-    clear_message.append((int(secret_msg[i]) ** d) % N)
+    clear_message.append(pow(secret_msg[i],d,n))
     print(chr(clear_message[i]))
 
+end = time.time()
+
+print(f"needed time: {end-start}")
