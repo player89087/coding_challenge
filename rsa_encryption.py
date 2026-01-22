@@ -1,6 +1,6 @@
 import random 
 import math 
-word = "Sven"
+word = "Great job you found the solution [encrypt10n_1s_k3y.html] "
 
 
 # Generate unicode for the string 
