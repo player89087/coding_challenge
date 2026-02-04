@@ -1,6 +1,6 @@
 from PIL import Image
 
-file = r"/home/siredgar20/Schreibtisch/coding_challenge/solutions/level3/challenge_img.png"
+file = r"/home/siredgar20/Schreibtisch/coding_challenge/solutions/level3/challenge.png"
 with Image.open(file) as img:
     x,y = img.size
     img = img.convert("RGB")
@@ -8,7 +8,7 @@ cord_x = []
 cord_y = []
 for i in range(0,x):
     for g in range(0,y):
-        if img.getpixel((i,g)) != (255,255,255): 
+        if img.getpixel((i,g)) != (0,0,0): 
             cord_x.append(i)
             cord_y.append(g)
             
