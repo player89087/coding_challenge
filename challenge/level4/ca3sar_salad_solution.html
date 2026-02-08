@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution Level 3</title>
+</head>
+<body style="background-color: black;">
+
+    <style>
+        h1 {text-align:center}
+        div {text-align: center;}
+        p {text-align: center;}
+        
+        </style>
+        
+   
+   <h1 style="color: yellow;"> Solution for level 3 - Caesar cipher frequency analysis </h1>
+    <div>
+    <img src="asterix.png" width="750" height="500">
+    <br>
+    </div>
+   <p style="font-size: larger; color: white;" >You were presented a picture of Asterix and Obelix the lone heroes against Caesar, or are they ? <br>
+    Caesar used a cipher called, the caesar-cipher (how creative) he used to decrypt the messages he sent. <br>
+    As seen in the picture below, the alphabet gets moved by a certain amount of characters, to make the message unreadable. <br>
+    Example: <br>
+    key: 3 <br>
+    A -> D <br>
+    B -> E <br>
+    C -> F <br>
+    <div><img src="caesar.png" width="750" height="400"></div>
+    So the text will end up scrambled, however out of modern day view, this method of encryption is not safe anymore. <br>
+    There are multiple possible ways to solve this level, first one being brute forcing the key until you get a text that makes sense <br>
+    since there are only 26 possible keys, this would'nt take that long. <br>
+    However there is another more, thought-through method than guessing with brute force. 
+    </p>
+    <p style="color: crimson; font-size: larger;">The so called Frequency Analysis</p>
+    <p style="color: white;font-size: larger;">where you basically look at the distribution of the letters in the text and then compare them to the englisch language. <br>
+    In our example the letter h was the most common, which leads to the conclusion, that the key is 3. As seen in the picture below <br>
+    the letter E is the most common in the englisch alphabet and 3 places away from the letter H, so the key is 3.<br> </p>
+    <div>
+    <img src="englisch_frequency.png" width="750" height="500">
+    </div>
+    <p style="color: white;font-size: larger;">Once you did that, you should be presented with the solution <br>
+    this is level five of the challenge. at this point, simple tricks are no longer enough and you must <br>
+    rely on careful analysis. pay attention to letter frequencies and common patterns in the language. <br>
+     long ago, even caesar believed his messages were safe, but history proved otherwise. <br>
+     like asterix and obelix outsmarting the roman empire, you just outsmarted us by either <br>
+     brute forcing to receive the message, or by using frequency analysis to find the key. <br>
+      congrats for finding the solution [ca3sar_salad.html]
+    </p>
+   </h1> 
+   
+
+    
+</body>
+</html>
