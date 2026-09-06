@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/31879842/README.md)
+
 #GITREKT CODING CHALLENGE#
 
 In this repository you can find the documentation for the challenge. It is still WIP and currently consists of 5 levels. The project is self-hosted and everything 
