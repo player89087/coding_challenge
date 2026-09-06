@@ -1,5 +1,5 @@
 
-# H1 GITREKT CODING CHALLENGE#
+# H1 GITREKT CODING CHALLENGE
 
 In this repository you can find the documentation for the challenge. It is still WIP and currently consists of 5 levels. The project is self-hosted and everything 
 except for the pictures (due to copyright reasons) is done without the help of AI. 
