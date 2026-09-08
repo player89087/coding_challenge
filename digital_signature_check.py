@@ -4,7 +4,7 @@ import math
 import time 
 import numpy as np 
 
-file_path = "/home/siredgar20/Schreibtisch/coding_challenge/challenge/level0/start.html"
+file_path = "/home/siredgar20/Schreibtisch/coding_challenge/challenge/level0/start.html" # insert here
 hash_func = hashlib.new("sha-256")
     
 with open(file_path, 'rb') as file:
@@ -107,15 +107,14 @@ while found == False:
 
 # private exponent 
 d = pow(e,-1,phi) # modulares inverses
-print(f"e{e}")
-print(f"n{n}")
+print(f"e: {e} \t \n")
+print(f"n{n} \t \n")
  # thats important 
 
 
 
 signature = pow(hash_int, d, n)
 print(f"signature:{signature}")
-
 
 
 

@@ -1,0 +1,7 @@
+level 0 fibonacci				start.html 
+level 1 züge bei türmevon hanoi  		41797.html
+level 2 rsa_verschlüsselung mit unicode		150515.html evtl. hint iata code bei koordinaten  
+level 3 caeser chiffre über häufigkeitsanalyse  e5crypt10n_1s_k3y.html 
+level 4 scharzes bild mit 1 1 1 pixeln 		ca3sar_salad.htmca3sar_saladl 
+level 5 unbekannt				1nvis1ble_1nk.html
+ 
