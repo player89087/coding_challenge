@@ -1,4 +1,5 @@
-#GITREKT CODING CHALLENGE#
+
+# H1 GITREKT CODING CHALLENGE
 
 In this repository you can find the documentation for the challenge. It is still WIP and currently consists of 5 levels. The project is self-hosted and everything 
 except for the pictures (due to copyright reasons) is done without the help of AI. 
@@ -15,8 +16,9 @@ Basic Cryptography – Decode and interpret messages using fundamental cryptogra
 
 Acess here [gitrekt.site](https://gitrekt.site) 
 
+---
 
-***Scroll all the way down to see the order of all current levels**
+**Scroll all the way down to see the order of all current levels**
 
 
 
